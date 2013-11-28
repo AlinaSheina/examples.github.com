@@ -1,0 +1,183 @@
+html {
+margin: 0;
+padding: 0;
+background-image: url(images/list.jpg);
+background-repeat: repeat-y;
+background-position: center;
+}
+
+.page-wrapper {
+width: 515px;
+margin: 0 auto;
+font: 75% Arial;
+color: #333;
+}
+
+.intro {
+background-image: url(images/header.jpg);
+background-repeat: no-repeat;
+padding-top: 290px;
+}
+
+.main, .intro {
+width: 290px;
+float: right;
+}
+
+.intro p, .main p {
+border-bottom: 1px solid #f8f8f8;
+padding-bottom: 10px;
+}
+
+.intro a, .main a {
+color: #770000;
+}
+
+.intro a:hover, .main a:hover {
+color: #ffffff;
+background: #000000;
+text-decoration:none;
+}
+
+.intro abbr, .main abbr{
+border-bottom: 1px dotted;
+}
+
+.intro abbr:hover, .main abbr:hover{
+border-bottom: none;
+border-top: 1px dotted;
+cursor: help;
+}
+
+header , .summary p:first-child, h3 {
+display:none;
+}
+
+.summary {
+background-image: url(images/summary.jpg);
+background-repeat: no-repeat;
+height: 180px;
+text-transform: uppercase;
+font: 0.8em Georgia;
+padding-top: 20px;
+}
+
+.preamble {
+background-image: url(images/title1.jpg);
+}
+
+.main {
+background-image: url(images/title2.jpg);
+}
+
+.participation {
+background-image: url(images/title3.jpg);
+}
+
+.benefits {
+background-image: url(images/title4.jpg);
+}
+
+.requirements {
+background-image: url(images/title5.jpg);
+}
+
+.preamble, .main, .participation, .benefits, .requirements {
+background-repeat: no-repeat;
+padding-top: 35px;
+}
+
+.sidebar {
+width: 200px;
+text-align: right;
+padding-top: 100px;
+padding-right: 8px;
+font-family: Verdana;
+font-size: 0.8em;
+line-height: 180%;
+}
+
+.footer {
+background-image: url(images/foo.jpg);
+background-repeat: no-repeat;
+height: 50px;
+padding-top: 55px;
+padding-left: 30px;
+}
+
+.footer a{
+color: #dde5be;
+text-decoration:none;
+font-weight: bold;
+}
+
+.footer a:hover{
+color: #770000;
+text-decoration:none;
+border-bottom: 1px dotted;
+background: #ffffff;
+}
+
+.design-selection {
+background-image: url(images/design.jpg);
+background-repeat: no-repeat;
+padding-top: 70px;
+}
+
+.sidebar ul {
+padding: 0;
+}
+
+.sidebar li {
+list-style: none;
+border-bottom: 1px solid #F9F7F6;
+}
+
+a.design-name {
+text-transform: uppercase;
+text-decoration:none;
+color: #9aa962;
+font-weight: bold;
+display: block;
+width: 200px;
+padding-right: 28px;
+}
+
+a.designer-name {
+text-decoration:none;
+color: #9aa962;
+font-style: italic;
+}
+
+.design-archives a, .zen-resources a{
+text-decoration:none;
+display: block;
+border: 1px solid #F9F7F6;
+margin-top: 10px;
+color: #9aa962;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.design-archives {
+background-image: url(images/archives.jpg);
+background-repeat: no-repeat;
+padding-top: 70px;
+margin-top: 40px;
+}
+
+.zen-resources {
+background-image: url(images/resources.jpg);
+background-repeat: no-repeat;
+padding-top: 70px;
+margin-top: 40px;
+}
+
+a.design-name:hover, a.designer-name:hover, 
+.design-archives a:hover, .zen-resources a:hover {
+color: #aad0d5;
+}
+
+.zen-faq abbr {
+cursor: help;
+}
